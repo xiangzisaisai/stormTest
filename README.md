@@ -6,6 +6,6 @@ storm test
 TestWordSpout ————>  ExclamationBolt ————> PrintBolt
 
 整个Topology分为三部分：
-　　TestWordSpout:数据源，负责发送words
-　　ExclamationBolt:负责把每个单词后面加上后缀
-　　PrintBolt:负责把单词打印输出
+TestWordSpout:数据源，负责发送words
+ExclamationBolt:负责把每个单词后面加上后缀
+PrintBolt:负责把单词打印输出
